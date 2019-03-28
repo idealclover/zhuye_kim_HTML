@@ -39,7 +39,7 @@
 ```
 data/
 │  bglist.json		- 背景图片分类信息
-│  category.json    - 分类信息
+│  category.json    	- 分类信息
 │
 ├─bgdetails
 │      data_1.json	- 背景图片某分类下具体图片信息
