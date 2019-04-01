@@ -837,7 +837,8 @@ searchEngineLogoPath = staticServerURI + "img/"; (function(f, h) {
         },
         siteListTypeChange: function(b, c) {
             a.initialised && a.siteListRotateX(c);
-            b ? (a.loadSiteClass(a.siteClasseMap.innerClasses), a.initialised && Search_Engine.search_type != Search_Engine.types.baidu && Search_Engine.change2Baidu(), a.siteListForm = 0, MyLocalStore.saveSiteListForm(0)) : (a.loadSiteClass(a.siteClasseMap.outerClasses), a.initialised && Search_Engine.search_type != Search_Engine.types.google && Search_Engine.change2Google(), a.siteListForm = 1, MyLocalStore.saveSiteListForm(1))
+            // b ? (a.loadSiteClass(a.siteClasseMap.innerClasses), a.initialised && Search_Engine.search_type != Search_Engine.types.baidu && Search_Engine.change2Baidu(), a.siteListForm = 0, MyLocalStore.saveSiteListForm(0)) : (a.loadSiteClass(a.siteClasseMap.outerClasses), a.initialised && Search_Engine.search_type != Search_Engine.types.google && Search_Engine.change2Google(), a.siteListForm = 1, MyLocalStore.saveSiteListForm(1))
+            b ? (a.loadSiteClass(a.siteClasseMap.innerClasses), a.initialised && Search_Engine.search_type != Search_Engine.types.baidu , a.siteListForm = 0, MyLocalStore.saveSiteListForm(0)) : (a.loadSiteClass(a.siteClasseMap.outerClasses), a.initialised && Search_Engine.search_type != Search_Engine.types.google, a.siteListForm = 1, MyLocalStore.saveSiteListForm(1))
         }
     });
     c.on("mouseover mouseout",
@@ -1556,13 +1557,21 @@ function() {
 $(function() {
     MyApplication.widowResize();
     var f = MyLocalStore.getNavBgId();
-    if ($.isEmptyObject(f) || "null" == String(f) || "undefined" == String(f)) f = "105";
-    BGSetting.applyBGImg(f,
-    function(f) {
-        $.isEmptyObject(f) || $(document.body).css("background-image", "url('" + f + "')");
+    // if ($.isEmptyObject(f) || "null" == String(f) || "undefined" == String(f)) f = "105";
+    if ($.isEmptyObject(f) || "null" == String(f) || "undefined" == String(f)) {
+        $.isEmptyObject(f) || $(document.body).css("background-image", "url('static/img/background.jpg')");
         setTimeout(function() {
-            MyApplication.init()
-        },
-        200)
-    })
+                MyApplication.init()
+            },
+            200);
+        return;
+    }
+    BGSetting.applyBGImg(f,
+        function(f) {
+            $.isEmptyObject(f) || $(document.body).css("background-image", "url('" + f + "')");
+            setTimeout(function() {
+                    MyApplication.init()
+                },
+                200)
+        })
 });

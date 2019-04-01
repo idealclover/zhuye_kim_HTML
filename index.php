@@ -27,7 +27,7 @@ $category = json_decode($json_string, true);
     <!--[if lt IE 9]>
     <script src="https://resource.hao1258.com/styles/hao1258/front/js/html5shiv.js"></script>
     <![endif]-->
-    <script type="text/javascript">var serverURI = 'http://127.0.0.1:12306/index', staticServerURI = 'static/', staticServerAPIURI = 'http://127.0.0.1:12306/index';</script>
+    <script type="text/javascript">var serverURI = '', staticServerURI = 'static/', staticServerAPIURI = '';</script>
     <style type="text/css">
 
         .animated {
@@ -136,7 +136,8 @@ $category = json_decode($json_string, true);
     -->
     <link rel="stylesheet" type="text/css" href="https://f1.webshare.mob.com/code/mob-share.css">
 </head>
-<body class="body" style="background-image: url('static/img/background.jpg'); overflow-y: scroll;">
+<!--<body class="body" style="background-image: url('static/img/background.jpg'); overflow-y: scroll;">-->
+<body class="body" style="overflow-y: scroll;">
 <div id="main" style="">
     <h1 style="text-align:center;width:100%;margin-top:40px;display:none;" id="ie-low">
         您的IE版本落后啦，建议升级到IE8以上版本。以便为您带来更好的体验！
