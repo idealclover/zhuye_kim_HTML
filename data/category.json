@@ -1,0 +1,98 @@
+{
+  "innerClasses": [
+    {
+      "id": "1",
+      "className": "\u5e38\u7528"
+    },
+    {
+      "id": "2",
+      "className": "\u7537\u751f"
+    },
+    {
+      "id": "3",
+      "className": "\u5973\u751f"
+    },
+    {
+      "id": "4",
+      "className": "\u751f\u6d3b"
+    },
+    {
+      "id": "5",
+      "className": "\u8bbe\u8ba1"
+    },
+    {
+      "id": "6",
+      "className": "\u4ea7\u54c1"
+    },
+    {
+      "id": "7",
+      "className": "\u804c\u80fd"
+    },
+    {
+      "id": "8",
+      "className": "\u8fd0\u8425"
+    },
+    {
+      "id": "9",
+      "className": "\u521b\u4e1a"
+    },
+    {
+      "id": "10",
+      "className": "Android"
+    },
+    {
+      "id": "11",
+      "className": "IOS"
+    },
+    {
+      "id": "12",
+      "className": "JavaWeb"
+    },
+    {
+      "id": "13",
+      "className": "\u8da3\u5473"
+    }
+  ],
+  "outerClasses": [
+    {
+      "id": "14",
+      "className": "\u5e38\u7528"
+    },
+    {
+      "id": "15",
+      "className": "\u77e5\u8bc6"
+    },
+    {
+      "id": "16",
+      "className": "\u5546\u4e1a"
+    },
+    {
+      "id": "17",
+      "className": "\u79d1\u6280"
+    },
+    {
+      "id": "18",
+      "className": "\u6e2f\u53f0"
+    },
+    {
+      "id": "19",
+      "className": "\u540d\u54c1"
+    },
+    {
+      "id": "20",
+      "className": "\u673a\u6784"
+    },
+    {
+      "id": "21",
+      "className": "\u5927\u5b66"
+    },
+    {
+      "id": "22",
+      "className": "\u519b\u4e8b"
+    },
+    {
+      "id": "23",
+      "className": "\u8da3\u5473"
+    }
+  ]
+}
