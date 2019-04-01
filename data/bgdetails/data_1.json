@@ -3,24 +3,24 @@
     "id": 1,
     "bgName": "\u6d41\u5149\u6ea2\u5f69",
     "bgType": 1,
-    "previewResourceId": "/images/BackGround/preview/11d4e0ecb9d946b580457278e3d1106a.png"
+    "previewResourceId": "images/BackGround/preview/11d4e0ecb9d946b580457278e3d1106a.png"
   },
   {
     "id": 2,
     "bgName": "\u82b1\u74e3\u98d8\u96f6",
     "bgType": 1,
-    "previewResourceId": "/images/BackGround/preview/2867b3c276ac4f8caec876ea6498769d.png"
+    "previewResourceId": "images/BackGround/preview/2867b3c276ac4f8caec876ea6498769d.png"
   },
   {
     "id": 3,
     "bgName": "\u7ebf\u6761",
     "bgType": 1,
-    "previewResourceId": "/images/BackGround/preview/656f3db7140c4ec587e8679c0703b85b.png"
+    "previewResourceId": "images/BackGround/preview/656f3db7140c4ec587e8679c0703b85b.png"
   },
   {
     "id": 4,
     "bgName": "\u4e1d\u5e26",
     "bgType": 1,
-    "previewResourceId": "/images/BackGround/preview/d3c15b294b084a85911428682069dd6d.png"
+    "previewResourceId": "images/BackGround/preview/d3c15b294b084a85911428682069dd6d.png"
   }
 ]
