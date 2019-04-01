@@ -593,6 +593,21 @@ searchEngineLogoPath = staticServerURI + "img/"; (function(f, h) {
     k = b.find("#site-class-group-right-btn");
     e = e.find("#web-site-body");
     var p = e.find(".web-group");
+    $.ajax({
+        url: serverURI + "/data/category.json",
+        type: "get",
+        async: !0,
+        timeout: 0,
+        data: {
+            _rd: (new Date).getTime()
+        },
+        dataType: "json",
+        success: function(c) {
+            // var siteClasses = c;
+            // console.log(c);
+            $.extend(!0, a, {siteClasseMap: c})
+        }
+    });
     $.extend(!0, a, {
         view: $("#web-site"),
         webSiteHeader: c,
@@ -612,7 +627,7 @@ searchEngineLogoPath = staticServerURI + "img/"; (function(f, h) {
         initialised: !1,
         currentPage: 1,
         cutClassPageing: !1,
-        siteClasseMap: $.parseJSON(siteClasses),
+        // siteClasseMap: $.parseJSON(siteClasses),
         pageSize: 6,
         siteClasses: [],
         locked: !1,
