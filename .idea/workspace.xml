@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95462eca-617d-4f2d-a520-30793cca056c" name="Default Changelist" comment="" />
+    <list default="true" id="95462eca-617d-4f2d-a520-30793cca056c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/index-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/index-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_category.json" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +56,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="326" />
+          <entry key="gitignore" value="7" />
+          <entry key="js" value="331" />
           <entry key="json" value="283" />
           <entry key="php" value="458" />
         </counts>
@@ -60,12 +65,14 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="283" />
-          <entry key="JavaScript" value="326" />
+          <entry key="JavaScript" value="331" />
           <entry key="PHP" value="458" />
+          <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="1" />
           <entry key="js" value="2" />
           <entry key="json" value="25" />
           <entry key="php" value="3" />
@@ -78,6 +85,7 @@
           <entry key="JSON" value="25" />
           <entry key="JavaScript" value="2" />
           <entry key="PHP" value="3" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -88,19 +96,28 @@
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="161" column="19" selection-start-line="161" selection-start-column="19" selection-end-line="161" selection-end-column="19" />
+              <caret line="299" column="37" selection-start-line="299" selection-start-column="37" selection-end-line="299" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/index-min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="840" column="314" selection-start-line="840" selection-start-column="314" selection-end-line="840" selection-end-column="314" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#a#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/js/index-min.js">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="1145" column="58" lean-forward="true" selection-start-line="1145" selection-start-column="58" selection-end-line="1145" selection-end-column="58" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#a#0;n#!!top" expanded="true" />
-              </folding>
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -127,13 +144,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>get</find>
-      <find>Site\/2018\/07\/..\/</find>
-      <find>/2018\/07\/..\/</find>
-      <find>2018/07/17/</find>
-      <find>2018\/07\/..\/</find>
-      <find>bgimg</find>
-      <find>/front/bgimg/</find>
       <find>bgimgs</find>
       <find>bgimg/list</find>
       <find>bgimg/</find>
@@ -154,9 +164,16 @@
       <find>\/2018\/07\/..</find>
       <find>serverURI</find>
       <find>console.</find>
-      <find>getClassList</find>
       <find>//</find>
+      <find>BackGround/</find>
       <find>console</find>
+      <find>change2Goo</find>
+      <find>getClassList</find>
+      <find>change2</find>
+      <find>siteListTypeChange</find>
+      <find>change2baidu</find>
+      <find>search-logo-transform</find>
+      <find>change2goo</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -189,6 +206,7 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/data/bgdetails/data_1.json" />
         <option value="$PROJECT_DIR$/static/js/index-min.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -325,12 +343,12 @@
       <option name="presentableId" value="Default" />
       <updated>1554107569017</updated>
       <workItem from="1554107570276" duration="4320000" />
-      <workItem from="1554117708089" duration="16676000" />
+      <workItem from="1554117708089" duration="17350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20996000" />
+    <option name="totallyTimeSpent" value="21670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -370,7 +388,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/static/js/index-min.js</url>
-          <line>912</line>
+          <line>913</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -569,17 +587,24 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="161" column="19" selection-start-line="161" selection-start-column="19" selection-end-line="161" selection-end-column="19" />
+          <caret line="299" column="37" selection-start-line="299" selection-start-column="37" selection-end-line="299" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/index-min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="1145" column="58" lean-forward="true" selection-start-line="1145" selection-start-column="58" selection-end-line="1145" selection-end-column="58" />
+        <state relative-caret-position="184">
+          <caret line="840" column="314" selection-start-line="840" selection-start-column="314" selection-end-line="840" selection-end-column="314" />
           <folding>
             <element signature="n#style#0;n#div#0;n#a#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
