@@ -594,7 +594,7 @@ searchEngineLogoPath = staticServerURI + "img/"; (function(f, h) {
     e = e.find("#web-site-body");
     var p = e.find(".web-group");
     $.ajax({
-        url: serverURI + "/data/category.json",
+        url: serverURI + "data/category.json",
         type: "get",
         async: !0,
         timeout: 0,
@@ -700,7 +700,7 @@ searchEngineLogoPath = staticServerURI + "img/"; (function(f, h) {
         getSiteList: function(b) {
             a.curReqMark = (new Date).format("ddhhmmss");
             $.ajax({
-                url: serverURI + "/data/details/data_" + b + ".json",
+                url: serverURI + "data/details/data_" + b + ".json",
                 type: "get",
                 async: !0,
                 timeout: 0,
@@ -972,7 +972,7 @@ searchEngineLogoPath = staticServerURI + "img/"; (function(f, h) {
         },
         getClassList: function() {
             $.ajax({
-                url: serverURI + "/data/bglist.json",
+                url: serverURI + "data/bglist.json",
                 type: "get",
                 async: !0,
                 dataType: "json",
@@ -1006,7 +1006,7 @@ searchEngineLogoPath = staticServerURI + "img/"; (function(f, h) {
         getImgList: function(b) {
             var c = a.contentGroupView;
             $.ajax({
-                url: serverURI + "/data/bgdetails/data_" + b + ".json",
+                url: serverURI + "data/bgdetails/data_" + b + ".json",
                 type: "get",
                 dataType: "json",
                 async: !0,
@@ -1096,7 +1096,7 @@ searchEngineLogoPath = staticServerURI + "img/"; (function(f, h) {
         },
         randBg: function() {
             a.cutBGImging || (a.cutBGImging = !0, a.randBgLoading(1), 0 < a.randBgs.length ? a.randCutBGImg() : $.ajax({
-                url: serverURI + "/front/nav/bgimg/random",
+                url: serverURI + "front/nav/bgimg/random",
                 type: "post",
                 async: !0,
                 timeout: 0,
@@ -1125,7 +1125,7 @@ searchEngineLogoPath = staticServerURI + "img/"; (function(f, h) {
                 a.cutBGImging = !1;
                 MyAnimation.clearWeatherAnimation()
             };
-            b.src = serverURI + "/front/nav/bgimg/" + a.randBgs[0]
+            b.src = serverURI + "front/nav/bgimg/" + a.randBgs[0]
         },
         cutBGImg: function(b) {
             var c = b.attr("my-bgimg-id");
@@ -1370,7 +1370,7 @@ searchEngineLogoPath = staticServerURI + "img/"; (function(f, h) {
         },
         getHobbyList: function() {
             $.ajax({
-                url: serverURI + "/front/hobby/list",
+                url: serverURI + "front/hobby/list",
                 type: "get",
                 dataType: "json",
                 async: !0,
@@ -1385,7 +1385,7 @@ searchEngineLogoPath = staticServerURI + "img/"; (function(f, h) {
         },
         getJobList: function(a) {
             $.ajax({
-                url: serverURI + "/front/hobby/list",
+                url: serverURI + "front/hobby/list",
                 type: "get",
                 dataType: "json",
                 async: !0,
@@ -1442,7 +1442,7 @@ searchEngineLogoPath = staticServerURI + "img/"; (function(f, h) {
         sendMail: function(a) {
             if (! ("" == $.trim(a) || 15 > $.trim(a).length)) try {
                 $.ajax({
-                    url: serverURI + "/front/suggestion/",
+                    url: serverURI + "front/suggestion/",
                     type: "post",
                     async: !0,
                     data: {
